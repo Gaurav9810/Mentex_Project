@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental HealthMate - FAQ</title>
+  <link rel="stylesheet" href="css/faq.css">
+</head>
+<body>
+
+    <section id="faq" class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+  
+      <div class="faq-item">
+        <button class="faq-question">What is Mental HealthMate?</button>
+        <div class="faq-answer">
+          <p>Mental HealthMate is an online platform dedicated to promoting mental well-being. It provides users with access to various resources, including self-help tools, professional consultations, and real-time emergency support for mental health crises. Our goal is to offer a safe and accessible space for individuals to seek assistance and improve their mental health.</p>
+        </div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">How do I book an appointment with a mental health professional?</button>
+        <div class="faq-answer">
+          <p>Booking an appointment is simple and convenient. Visit the "Appointments" section on our website, choose a licensed mental health professional from the list, and select a time that suits your schedule. You'll receive a confirmation email with all the details. Additionally, our platform supports video consultations for your convenience and comfort.</p>
+        </div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">Is my information kept confidential?</button>
+        <div class="faq-answer">
+          <p>Yes, confidentiality and data security are our top priorities. All personal information, communication with professionals, and health-related data are protected through industry-standard encryption protocols. We strictly adhere to privacy regulations such as GDPR and HIPAA to ensure your information remains private and secure at all times.</p>
+        </div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">Can I access emergency mental health support?</button>
+        <div class="faq-answer">
+          <p>Absolutely. In addition to scheduled consultations, Mental HealthMate offers emergency support through our real-time chatbot, which can guide you to the right resources in urgent situations. Additionally, you can get immediate access to live support from licensed professionals who are available 24/7 to address critical mental health concerns.</p>
+        </div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">Do I need to create an account to use the platform?</button>
+        <div class="faq-answer">
+          <p>Yes, creating an account is necessary to access the full range of services on Mental HealthMate. Your account allows you to securely book appointments, track your mental health progress, and access personalized content. However, browsing the informational resources on the website does not require an account.</p>
+        </div>
+      </div>
+  
+      <div class="faq-item">
+        <button class="faq-question">Is there a mobile app available for Mental HealthMate?</button>
+        <div class="faq-answer">
+          <p>Currently, Mental HealthMate is accessible through our website, optimized for both desktop and mobile devices. While we do not yet have a standalone mobile app, our platform provides a seamless experience across all devices, ensuring you can access resources, book appointments, and engage with support professionals at any time, from anywhere.</p>
+        </div>
+      </div>
+  
+    </section>
+
+  <script>
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+      const question = item.querySelector('.faq-question');
+      question.addEventListener('click', () => {
+        item.classList.toggle('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
