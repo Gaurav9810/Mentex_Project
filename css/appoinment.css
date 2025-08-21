@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd; /* Light blue background */
+  }
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White card */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  .container h2 {
+    text-align: center;
+    color: #0d6efd; /* Blue heading */
+    margin-bottom: 20px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #0d6efd; /* Blue labels */
+  }
+  .form-group input, .form-group textarea, .form-group select, .form-group button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .form-group textarea {
+    resize: none;
+  }
+  .form-group button {
+    background-color: #0d6efd; /* Blue button */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  }
+  .form-group button:hover {
+    background-color: #004bb5; /* Darker blue on hover */
+  }
+  .success-message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    display: none; /* Hidden by default */
+  }
